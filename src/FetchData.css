@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    
+    
+}
+  .product-container {
+    width: 100%;
+    min-height: 80vh;
+    background-color: rgb(32, 134, 206);
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items: center;
+    padding-left: 10px;
+    padding-right: 25px;
+    padding-bottom: 20px;
+    
+   
+  }
+  
+  .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* margin: 20px 0; */
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 5px;
+    
+  }
+  .card-description {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .user-id{
+    font-size: 17px;
+    color: blue;
+  }
+  .title{
+    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    color:brown;
+    font-weight: 500;
+  }
+  .body{
+    font-size: 15px;
+    color: rebeccapurple;
+  }
+  .spann{
+    font-weight: lighter;
+  }
